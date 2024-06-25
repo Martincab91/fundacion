@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --swiper-theme-color: #0E7490 !important;
+}
+
+.red {
+  outline: 2px solid red;
+}
+
+.two-pages {
+  height: 200vh;
+  line-height: 200vh;
+}
+
+.logo-width {
+  width: 200px;
+}
+
+.text-golden-pg {
+  color: #D8B859;
+  fill: #D8B859;
+  stroke: #D8B859;
+}
+
+.hover-pg {
+  transition: color 0.3s ease;
+}
+
+.hover-pg:hover {
+  color: #D8B859;
+  fill: #D8B859;
+  stroke: #D8B859;
+  transition: color 0.3s ease;
+}
+
+.ayudar-iconos {
+  fill: white;
+}
+
+.wrapper {
+  width: 1200px;
+  box-sizing: border-box;
+}
+
+/* Carrousel */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  box-sizing: border-box;
+  top: 200px;
+}
+
+.blanco {
+  color: white;
+}
+
+.cyan {
+  color: white
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .absolute-center {
+    width: 90%;
+    position: static;
+  }
+
+  .blanco {
+    color: black;
+  }
+
+  .cyan {
+    color: #0E7490
+  }
+}
