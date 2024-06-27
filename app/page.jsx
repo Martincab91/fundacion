@@ -87,16 +87,36 @@ const HomePageContent = () => {
         </p>
         <CapacitacionesGrid />
       </div>
-      <div className="pt-24 wrapper mx-auto" id="empresas">
-        <h3 className="text-4xl text-cyan-700 font-semibold">
+      <div className="pt-24  mx-auto" id="empresas">
+        <h3 className="text-4xl wrapper mx-auto text-cyan-700 font-semibold">
           Empresas que nos acompañan
         </h3>
-        <div className="flex md:w-full w-fit flex-wrap rounded-xl justify-between mt-10 bg-cyan-700 p-10 gap-3">
-          <img className="lg:h-28 md:h-20 h-16 rounded-lg" src="/convenpack.jpeg"></img>
-          <img className="lg:h-28 md:h-20 h-16 rounded-lg" src="/Colegio-universitario.jpeg"></img>
-          <img className="lg:h-28 md:h-20 h-16 rounded-lg" src="/campus-norte.jpeg"></img>
-          <img className="lg:h-28 md:h-20 h-16 rounded-lg" src="/ministerio-educacion.jpeg"></img>
-        </div>
+        <div className="flex w-full px-[5%] flex-wrap rounded-xl justify-center mt-10 p-10 gap-5">
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/logo-footer-2.png"
+        ></img>
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/ministerio-educacion.jpeg"
+        ></img>
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/logo-nuevo-1.png"
+        ></img>
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/LOGO_IES.png"
+        ></img>
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/El_doce_tv_cba_logo.png"
+        ></img>
+        <img
+          className="lg:h-28 md:h-20 h-16 rounded-lg"
+          src="/logo-footer-1.png"
+        ></img>
+      </div>
       </div>
       <Image alt="Imagen de portada" src={"/nueva-2.jpeg"} width={"1920"} height={"100"} className="mt-28 block w-full" />
     </>

@@ -22,7 +22,7 @@ export default function Donaciones() {
             programación.
           </p>
           <a
-            href="https://donaronline.org/fundacion-pequenos-genios/ayudanos-a-que-cada-vez-sean-mas-los-pequenos-genios"
+            href="https://donaronline.org/fundacion-pequenos-genios/ayudanos-a-que-cada-vez-sean-mas-los-pequenos-genios-argentina"
             target="_blank"
             className="bg-cyan-700 rounded-2xl text-xl p-5 flex flex-col items-center w-fit mx-auto font-semibold text-white transition-all hover:bg-cyan-600 duration-300 shadow-xl"
           >
