@@ -2,6 +2,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import HeadBar from "@/componentes/HeadBar";
 import Footer from "@/componentes/Footer";
+import { Whatsapp } from "@/componentes/Whatsapp";
 
 const font = Montserrat({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={font.className}>
+        <Whatsapp />
         <HeadBar />
         <div className="block w-full bg-cyan-700 lg:h-24 absolute">
         </div>

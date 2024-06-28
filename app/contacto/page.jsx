@@ -1,6 +1,6 @@
 export default function Contacto() {
   return (
-    <div className="flex flex-col-reverse lg:flex lg:flex-row gap-y-8 lg:mt-36 wrapper mx-auto">
+    <div className="flex flex-col-reverse lg:flex lg:flex-row gap-y-8 lg:mt-36 wrapper mx-auto mb-20 lg:mb-0">
       <div className="lg:w-full lg:pr-20">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13617.766642595949!2d-64.2275516!3d-31.4295059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a35b39e5ba73%3A0xa7869611e5153e8a!2sPeque%C3%B1os%20Genios!5e0!3m2!1ses-419!2sar!4v1706222909960!5m2!1ses-419!2sar"
