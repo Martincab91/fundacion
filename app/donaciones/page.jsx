@@ -9,7 +9,7 @@ export default function Donaciones() {
       <div className="lg:flex lg:flex-row lg:gap-10">
         <Image
           alt="Imagen de portada"
-          src={"/donar.jpeg"}
+          src={"/donar-nuevo.jpeg"}
           width={2048}
           height={707}
           className="rounded-xl shadow-xl w-full lg:w-7/12"
